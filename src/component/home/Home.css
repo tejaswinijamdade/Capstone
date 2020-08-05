@@ -1,0 +1,129 @@
+.home{
+    background-image: url("https://robbreportedit.files.wordpress.com/2020/02/ettan.jpg?w=1000");
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px; 
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.home:before {
+    content: "";
+    background: rgba(6, 12, 34, 0.5);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+   .home .intro-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 90px;
+    right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 15px;
+  }
+  
+  .home h1 {
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-size: 56px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .home h1 span {
+    color: #f82249;
+  }
+  .home .about-btn {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 50px;
+    line-height: 1;
+    margin: 10px;
+    background-color:blueviolet;
+    color: #fff;
+    border: 2px solid #f82249;
+   
+  }
+  
+  .home .about-btn:hover {
+    cursor: pointer;
+    background: #f82249;
+    color: #fff;
+  }
+  
+ 
+
+  
+.about {
+    background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+    padding: 60px 0 40px 0;
+    text-transform: uppercase;
+  }
+  
+  .about:before {
+    content: "";
+    background: rgba(6, 12, 34, 0.5);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .about h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  
+  .about p {
+    display: flex;
+    z-index: 1;
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #fff;
+   background-color: rgb(204, 60, 60);
+    width: 100%;
+  }
+  
+  
+
+.home_row{
+    display: flex;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
